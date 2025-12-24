@@ -34,7 +34,7 @@ public class BinaryTree {
         if (current == null) return;
         inorderRec(current.left);
         System.out.print(current.data + " ");
-        inorderRec(current.right) ;
+        inorderRec(current.right)  ;
     }
 }
 
